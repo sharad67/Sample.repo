@@ -13,5 +13,5 @@ def greet(who_to_greet):
 
 name = input("enter name: ")
 print(greet(name))
-r = requests.get("https://www.ndtv.com/")
+r = requests.get("https://surabhitea.in/")
 print(r.status_code)
