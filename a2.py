@@ -9,5 +9,5 @@ def welcomeMessage(name, place):
     print("I am from: {}".format(place))
 
 
-r = requests.get("https://www.ndtv.com/")
+r = requests.get("https://surabhitea.in/")
 print(r.status_code)
